@@ -8,7 +8,7 @@ let package = Package(
         .library(name: "SwiftBGFX", type: .static, targets: ["SwiftBGFX"])
     ],
     dependencies: [
-        .package(url: "https://github.com/SwiftGFX/SwiftMath", .upToNextMinor(from: "3.0.0")),
+        .package(url: "https://github.com/SwiftGFX/SwiftMath", from: "3.3.1"),
     ],
     targets: [
         .target(
